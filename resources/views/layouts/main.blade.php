@@ -12,13 +12,10 @@
 </head>
 <body>
 
-    @include('partials.navbar')
-
-    @yield('hero')
 
     @yield('content')
 
-    @include('partials.footer')
+    {{-- @include('partials.footer') --}}
 
 </body>
 </html>
